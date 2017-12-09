@@ -71,7 +71,7 @@
     position: fixed;
     overflow-y: scroll;
     height: 100%;
-    width: 180px;
+    width: 147px;
     z-index: 100;
 }
 .collapse {
@@ -100,7 +100,7 @@
 @media (min-width: 980px) {
 	#sidebar {
 	    position: absolute;
-	    width: 180px;
+	    width: 147px;
 	}
 }
 #sidebar ul {
@@ -136,7 +136,7 @@
     border: 0px;
     font-size: 12px;
     text-align: left;
-    width: 150px;
+    width: 117px;
     padding: 5px 15px;
     background: #505050;
     transition-duration: 500ms;
