@@ -15,17 +15,18 @@
 					<div class="box">
 						<input type="text" placeholder="请输入用户名" class="usrName"/>
 						<p><input type="text"  placeholder="请输入验证码" class="passWord"/><span>短信验证码</span></p>
-						<input type="button" value="登录"/>
+						<input type="button" value="登录" class="logining"/>
 					</div>
-					<p class="text">各部门主管可在系统管理》用户管理中添加、维护本部门员工账号</p>
 				</div>
+				<p class="text">各部门主管可在系统管理》用户管理中添加、维护本部门员工账号</p>
 			</div>
 		</div>
 	</body>
 </html>
 <script>
+	$(".wrapper .bg").height(window.screen.height);
 	//背景图
 	window.onresize=function(){
-		$(".wrapper .bg").height(window.screen.height)
+		$(".wrapper .bg").height(window.screen.height);
 	}
 </script>
