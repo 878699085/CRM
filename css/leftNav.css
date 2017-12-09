@@ -5,6 +5,10 @@
 .wrapper{
 	width: ;
 }
+.navbar {
+    margin-bottom: 20px;
+    overflow: visible;
+}
 .navbar-fixed-top, 
 .navbar-fixed-bottom {
     position: fixed;
@@ -12,4 +16,194 @@
     left: 0;
     z-index: 1030;
     margin-bottom: 0;
+}
+.navbar-fixed-top {
+    top: 0;
+}
+#header.navbar {
+    min-width: 0px;
+}
+#header .navbar-inner{
+	min-height: 40px;
+	height: 60px;
+	top: 0px;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: -2px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom, #4a8bc2, #4a8bc2);
+    background-repeat: repeat-x;
+    border-color: #4a8bc2;
+    color: #fff;
+    background-color: #4a8bc2;
+}
+#header .container-fluid{
+    padding:0 20px;
+}
+.container-fluid .logo{
+	float: left;
+	margin-top:18px;
+} 
+.container-fluid .top-menu {
+	float: right;
+}
+.top-menu li{
+	float: left;
+	margin-left: 27px;
+	line-height: 60px;
+	font-size:12px;
+}
+.top-menu li img{
+	width: 27px;
+	height: 27px;
+	margin-top: 18px;
+}
+@media (min-width: 1200px) {
+	.row-fluid {
+    	width: 100%;
+	}
+}
+ 
+#container {
+    margin-top: 60px;
+}
+.sidebar-scroll {
+    position: fixed;
+    overflow-y: scroll;
+    height: 100%;
+    width: 180px;
+    z-index: 100;
+}
+.collapse {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height .35s ease;
+    -moz-transition: height .35s ease;
+    -o-transition: height .35s ease;
+    transition: height .35s ease;
+}
+.nav-collapse.collapse {
+    height: auto;
+    overflow: visible;
+}
+@media (min-width: 980px) {
+	.nav-collapse.collapse {
+	    height: auto!important;
+	    overflow: visible!important;
+	}
+}
+#sidebar {
+    z-index: 100;
+    background: #404040;
+}
+@media (min-width: 980px) {
+	#sidebar {
+	    position: absolute;
+	    width: 180px;
+	}
+}
+#sidebar ul {
+    margin-bottom: 180px !important;
+}
+#sidebar > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+@media (min-width: 980px) {
+	#sidebar ul {
+	    margin-top: 1px !important;
+	    width: 100%;
+	}
+}
+#sidebar > ul > li {
+    display: block;
+    margin: 0 0 1px 0px;
+    padding: 0;
+    border: 0px;
+    line-height: 30px;
+}
+#sidebar > ul > li > a {
+    display: block;
+    position: relative;
+    margin: 0;
+    border: 0px;
+    font-size: 12px;
+    text-align: left;
+    width: 150px;
+    padding: 5px 15px;
+    background: #505050;
+    transition-duration: 500ms;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+    color: #fff;
+}
+#sidebar > ul > li.active > a {
+    border: none;
+}
+#sidebar > ul > li.active > a, 
+#sidebar > ul > li >a:hover, 
+#sidebar > ul > li:hover >a {
+    background: #4a8bc2;
+}
+#sidebar > ul > li > a > span {
+    display: inline-block;
+    line-height: normal;
+}
+#sidebar > ul > li > ul.sub {
+    display: none;
+    list-style: none;
+    clear: both;
+    margin: 0px;
+}
+#sidebar > ul > li > ul.sub {
+    margin-bottom: 0 !important;
+}
+#sidebar ul > li > a .arrow {
+    float: right;
+    margin-top: 12px;
+    margin-right: 0px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid #fff;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+#sidebar > ul > li > a .arrow.open {
+    float: right;
+    margin-top: 14px;
+    margin-right: 0px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #fff;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+#sidebar > ul > li > ul.sub > li {
+    background: none !important;
+    padding: 0px;
+    margin-bottom: 1px;
+}
+#sidebar > ul > li > ul.sub > li > a {
+    display: block;
+    position: relative;
+    padding: 10px 10px 10px 45px;
+    color: #ccc;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #000;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+}
+#sidebar > ul > li > ul.sub > li > a {
+    color: #fff;
 }
