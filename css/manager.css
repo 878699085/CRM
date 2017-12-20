@@ -1,0 +1,343 @@
+.distri_wrap{
+	width: 89%;
+    min-width: 1200px;
+    color: #666;
+    float: left;
+}
+/*面包屑*/
+.nav_bread{
+	padding:0 15px;
+}
+.nav_bread h1{
+	font-size: 16px;
+	padding:15px 0 ;
+	color: #666;
+}
+.nav_bread h2{
+	font-size: 12px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+    text-indent: 15px;
+}
+.nav_bread h2 span{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	background: #f5f5f5;
+}
+/*第一行设置按钮*/
+.setUpBtn{
+	padding:15px 15px;
+}
+.setUpBtn .type_choose{
+	height:30px;
+	margin-bottom:20px;
+}
+.setUpBtn li{
+	float:right;
+	margin-right:15px;
+	cursor:pointer;
+}
+.setUpBtn li dl {
+	width: 88px;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+}
+
+.setUpBtn li dt {
+	width: 88px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #4a8bc2;
+	text-align: center;
+	font-size: 12px;
+}
+
+.setUpBtn li dd {
+	width: 90px;
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	line-height: 30px;
+	z-index: 5;
+	background: #fff;
+	display: none;
+	border:1px solid #4a8bc2;
+	border-top: none;
+}
+
+.setUpBtn li dd p {
+	height: 28px;
+}
+
+.setUpBtn li dd p:hover {
+	background: #4a8bc2;
+	color: #fff;
+}
+.setUpBtn li.type_left,.setUpBtn li.per_left{
+	float:left;
+}
+.type_choose li label{
+	float:left;
+	width:75px;
+	text-align:center;
+	line-height:30px;
+	background:#4a8bc2;
+	color:#fff;
+}
+.type_choose li input.showLook{
+	width:300px;
+	height: 28px;
+	border: 1px solid #4a8bc2;
+	line-height: 28px;
+	color: #666;
+	text-indent: 10px;
+}
+.type_choose li dl,.type_choose li dt,.type_choose li dd{
+	width: 160px;
+	text-indent: 10px;
+	text-align: left;
+}
+.type_choose li dt{
+	background: url(../imgs/common/select.png) 140px 12px no-repeat;
+}
+/*第二行设置按钮*/
+.sea_choose li.seas label{
+	width: 100px;
+}
+.sea_choose li label.searchBtn{
+	background:#4a8bc2 url(../imgs/common/search.png) 10px 7px no-repeat;
+}
+.sea_choose li input{
+	float: left;
+	height: 28px;
+	border:1px solid #4a8bc2;
+	width: 362px;
+	text-indent: 10px;
+}
+.sea_choose li.advanced{
+	color:#74b749;
+	line-height: 30px;
+	text-decoration: underline;
+	margin-right:0px;
+}
+/*第三行设置按钮*/
+.per_choose li.per_left span{
+	display: inline-block;
+	width: 100px;
+    height: 30px;
+    background: #4a8bc2;
+	color:#fff;
+	text-align: center;
+	line-height: 30px;
+}
+.per_choose li span.custom_dis{
+	width: 160px;
+	background:#4a8bc2 url(../imgs/common/resize.png) 9px 5px no-repeat;
+	color:#fff;
+	text-align: center;
+}
+.per_choose li dl,.per_choose li dt,.per_choose li dd{
+	width: 158px;
+	text-indent: 10px;
+	text-align: left;
+}
+.per_choose li dt{
+	background: url(../imgs/common/select.png) 140px 12px no-repeat;
+}
+.expert_search {
+	border: 1px solid #4a8bc2;
+	padding:15px;
+	height: 280px;
+	margin-top: 12px;
+}
+
+.expert_search li {
+	display: inline-block;
+	height: 30px;
+	margin-bottom: 15px;
+	position: relative;
+	color: #666;
+	float: left;
+}
+@media only screen and (max-device-width: 1900px){
+	.expert_search li.cust_contact,
+	.expert_search li.cust_contact input,
+	.expert_search li.isScal,
+	.expert_search li.isScal input,
+	.expert_search li.phone,
+	.expert_search li.phone input,
+	.expert_search li.regNo,
+	.expert_search li.regNo input{
+		margin-right: 0;
+	}
+}
+.expert_search li.sub_btns {
+	width: 100%;
+	height: 36px;
+}
+
+.expert_search li.sub_btns input {
+	width: 120px;
+	height: 30px;
+	border: none;
+	background: #4a8bc2 url(../imgs/common/search.png) 30px 7px no-repeat;
+	color: #fff;
+	position: relative;
+	margin-left: 50%;
+	left: -60px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.expert_search li label {
+	width: 80px;
+	background:#4a8bc2;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	color: #fff;
+}
+.expert_search li dl,.expert_search li dt,.expert_search li dd{
+	width: 78px;
+	text-indent: 10px;
+	text-align: left;
+	margin-right: 12px;
+}
+.expert_search li dt{
+	background: url(../imgs/common/select.png) 60px 12px no-repeat;
+}
+.expert_search li input {
+	width: 180px;
+	height: 28px;
+	border: 1px solid #4a8bc2;
+	margin-right: 25px;
+	text-indent: 10px;
+}
+
+.expert_search li.creat_time input {
+	background: url(../imgs/common/calendar.png) no-repeat 147px 4px;
+}
+.expert_search li.tel input,
+.expert_search li.phone input,
+.expert_search li.qq input{
+	width: 270px;
+}
+.sort_list {
+	height: 50px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.all_choose{
+	width: 100%;
+	height: 60px;
+	margin-top: 20px;
+}
+.all_choose label{
+	float: left;
+	width:10%;
+	height: 60px;
+	background: #4a8bc2;
+}
+.all_choose ul{
+	float: left;
+	display: inline-block;
+	width: 89.8%;
+	height: 58px;
+	border: 1px solid #4a8bc2;
+}
+.all_choose ul li{
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.all_choose ul li b,.all_choose label b{
+	float: left;
+	width:14px;
+	height:14px;
+	background:url(../imgs/common/check1.png) center no-repeat;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.all_choose ul li b.hover{
+	background:url(../imgs/common/checked1.png) center no-repeat;
+}
+.all_choose label b{
+	margin-left: 12%;
+	margin-top:20px;
+	background:url(../imgs/common/check.png) center no-repeat;
+}
+.all_choose label b.hover{
+	background:url(../imgs/common/checked.png) center no-repeat;
+}
+.all_choose span,.all_choose em{
+	float: left;
+}
+.all_choose label{
+	color:#fff;
+}
+.all_choose label span,.all_choose label em{
+	margin-top:19px;
+}
+.tabel_box{
+	padding:0 15px;
+	height: 533px;
+}
+.tabel_box table{
+	width: 100%;
+	border:1px solid #4a8bc2;
+}
+.tabel_box table thead{
+	background:#4a8bc2;
+}
+.tabel_box table thead th{
+	font-weight: normal;
+	border-color:#4a8bc2;
+	color:#fff;
+}
+.tabel_box table tr{
+	height:30px;
+	text-align: center;
+}
+.tabel_box table td{
+	border-color:#4a8bc2;
+	color:#666;
+} 
+.tabel_box table td em{
+	float: left;
+	margin-left: 10px;
+}
+.mang_page{
+	font-size: 12px;
+	color: #666;
+	height: 30px;
+    background:#F5F5F5;
+}
+.tabel_box table span{
+	display: block;
+	width: 14px;
+	height: 14px;
+	background:url(../imgs/common/check.png) center center no-repeat;
+	margin: auto;
+}
+.tabel_box table span.hover{
+	background:url(../imgs/common/checked.png) center center no-repeat;
+}
+.tabel_box table tr td span{
+	background:url(../imgs/common/check1.png) center center no-repeat;
+}
+.tabel_box table tr td span.hover{
+	background:url(../imgs/common/checked1.png) center center no-repeat;
+}
+.tabel_box table a{
+	color: #74b749;
+	text-decoration: underline;
+	cursor:pointer;
+}
+.hide{
+	display: none;
+}

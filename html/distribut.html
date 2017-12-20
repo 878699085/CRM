@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/reset.min.css" />
+		<link rel="stylesheet" href="../css/page.css" />
+		<link rel="stylesheet" href="../css/distribut.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="../js/page.js" ></script>
+		<script type="text/javascript" src="../js/distribut.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="manger_wrap">
+			<div class="nav_bread">
+				<h1>客户分配</h1>
+				<h2>
+					<span><i>当前位置 </i> /<b>客户管理</b> 》   <b>客户分配</b></span>
+				</h2>
+			</div>
+			<div class="setUpBtn">
+				<ul class="type_choose">
+					<li class="type_left"><span>审核通过</span><span>标记无效</span><span class="import">导入</span></li>
+					<li style="margin-right:0;">
+						<label for="">归属地</label>
+						<select></select>
+					</li>
+					<li>
+						<label for="">数据来源</label>
+						<select></select>
+					</li>
+					<li>
+						<label for="">业务类型</label>
+						<select></select>
+					</li>
+				</ul>
+				<ul class='per_choose'>
+					<li class="per_left">
+						<p>
+							<b></b>
+							<span>全部</span>
+							<em>【100】</em>
+						</p>
+						<p>
+							<b></b>
+							<span>未分配</span>
+							<em>【100】</em>
+						</p>
+						<p>
+							<b></b>
+							<span>无效客户</span>
+							<em>【100】</em>
+						</p>
+						<p>
+							<b></b>
+							<span>只看今日信息</span>
+							<em>【100】</em>
+						</p>
+					</li>
+					<li style="margin-right:0;"><select name="" id=""></select></li>
+					<li class="custom_dis">自定义显示字段</li>
+				</ul>
+			</div>
+			<div class="tabel_box">
+				<table border="" cellspacing="" cellpadding="">
+					<thead>
+						<th><span></span></th>
+						<th>客户编号</th>
+						<th>业务名称</th>
+						<th>分类</th>
+						<th>姓名</th>
+						<th>QQ</th>
+						<th>联系电话</th>
+						<th>手机号码归属地</th>
+						<th>状态</th>
+						<th>查询时间</th>
+						<th>信息来源</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td><span></span></td>
+							<td>C201407090001</td>
+							<td>商标：德芙巧克力</td>
+							<td>01类-化学品</td>
+							<td>张三</td>
+							<td>593740031</td>
+							<td>1311111111</td>
+							<td>内蒙古</td>
+							<td><em>等待审核通过</em><b></b><b class="normal"></b></td>
+							<td>2014-1-1 15:10:02</td>
+							<td>vip.gbicom.cn</td>
+						</tr>
+						<tr>
+							<td><span></span></td>
+							<td>C201407090001</td>
+							<td>商标：德芙巧克力</td>
+							<td>01类-化学品</td>
+							<td>张三</td>
+							<td>593740031</td>
+							<td>1311111111</td>
+							<td>内蒙古</td>
+							<td><em>等待审核通过</em><b></b><b class="normal"></b></td>
+							<td>2014-1-1 15:10:02</td>
+							<td>vip.gbicom.cn</td>
+						</tr>
+						<tr>
+							<td><span></span></td>
+							<td>C201407090001</td>
+							<td>商标：德芙巧克力</td>
+							<td>01类-化学品</td>
+							<td>张三</td>
+							<td>593740031</td>
+							<td>1311111111</td>
+							<td>内蒙古</td>
+							<td><em>等待审核通过</em><b></b><b class="normal"></b></td>
+							<td>2014-1-1 15:10:02</td>
+							<td>vip.gbicom.cn</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="mang_page">
+				<div class="pageNumber"></div>
+			</div>
+		</div>
+		<div class="batch_import">
+			<h4>批量导入信息<b class="close"></b></h4>
+			<div id="">
+				
+			</div>
+		</div>
+		<div class="cus_field">
+			<div class="selected_left">
+				<h4>当前展示字段</h4>
+				<ul>
+					<li>
+						<span>编号</span>
+						<a class="sortUp" onclick="">
+							<img src="../imgs/common/up.png">
+						</a>
+						<a class="sortDown" onclick="">
+							<img src="../imgs/common/down.png">
+						</a>
+						<b></b>
+					</li>
+					<li>
+						<span>业务名称</span>
+						<a class="sortUp" onclick="">
+							<img src="../imgs/common/up.png">
+						</a>
+						<a class="sortDown" onclick="">
+							<img src="../imgs/common/down.png">
+						</a>
+						<b></b>
+					</li>
+					<li>
+						<span>分类</span>
+						<a class="sortUp" onclick="">
+							<img src="../imgs/common/up.png">
+						</a>
+						<a class="sortDown" onclick="">
+							<img src="../imgs/common/down.png">
+						</a>
+						<b></b>
+					</li>
+					<li>
+						<span>姓名</span>
+						<a class="sortUp" onclick="">
+							<img src="../imgs/common/up.png">
+						</a>
+						<a class="sortDown" onclick="">
+							<img src="../imgs/common/down.png">
+						</a>
+						<b></b>
+					</li>
+				</ul>
+			</div>
+			<div class="select_right">
+				<h4>可选字段<b class="close"></b></h4>
+				<ul>
+					<li>
+						<span>编号</span>
+						<em>选择</em>
+					</li>
+					<li>
+						<span>业务名称</span>
+						<em>选择</em>
+					</li>
+					<li>
+						<span>分类</span>
+						<em>选择</em>
+					</li>
+					<li>
+						<span>姓名</span>
+						<em>选择</em>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p class="layout"></p>
+	</body>
+</html>

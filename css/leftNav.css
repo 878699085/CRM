@@ -58,6 +58,19 @@
 	height: 27px;
 	margin-top: 18px;
 }
+.top-menu span.receive_info {
+	width: 100%;
+	float: left;
+	margin-left: 2%;
+	text-indent: 10px;
+}
+.top-menu .receive_info b{
+	display: inline-block;
+	background: url(../imgs/myDesk/info_1.png) no-repeat center;
+	width: 44px;
+	height: 10px;
+    margin-left: 10px;
+}
 @media (min-width: 1200px) {
 	.row-fluid {
     	width: 100%;
@@ -207,3 +220,4 @@
 #sidebar > ul > li > ul.sub > li > a {
     color: #fff;
 }
+
