@@ -1,0 +1,247 @@
+.details_wrap{
+	width: 89%;
+    min-width: 1200px;
+    color: #666;
+    float: left;
+}
+/*面包屑*/
+.nav_bread{
+	padding:0 16px;
+}
+.nav_bread h1{
+	font-size: 16px;
+	padding:16px 0 ;
+	color: #666;
+}
+.nav_bread h2{
+	font-size: 12px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+    text-indent: 15px;
+}
+.nav_bread h2 span{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	background: #f5f5f5;
+}
+/*基本信息*/
+.basic_msg{
+	height: 136px;
+	padding:0 16px; 
+	margin-top:16px;
+}
+.basic_msg ul{
+	width: 100%;
+	height: 102px;
+	padding:16px 0;
+	border:1px solid #4a8bc2;
+}
+.basic_msg ul li{
+	float: left;
+	height: 100px;
+	padding:0 1%;
+}
+.basic_msg ul li.lis_1{
+	width:28%;
+	border-right:1px solid #4a8bc2;
+}
+.basic_msg ul li.lis_1 p.cor_name{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.basic_msg ul li.lis_1 p.cor_name span{
+	font-size:16px;
+	float: left;
+}
+.basic_msg ul li.lis_1 p.cor_name i{
+	float: left;
+	width:26px;
+	height: 24px;
+	background:url(../imgs/manager/vip.png) no-repeat;
+}
+.basic_msg ul li.lis_1 p.cor_name b{
+	font-size: 12px;
+	color: #74b749;
+	text-decoration: underline;
+}
+.basic_msg ul li.lis_1 p.order_amount span{
+	font-size:12px;
+	margin-right:20px;
+}
+.basic_msg ul li.lis_1 p.personal{
+	margin-top: 10px;
+	font-size:14px;
+	color:#cc0000;
+}
+.basic_msg ul li.lis_2{
+	width:13%;
+	border-right:1px solid #4a8bc2;
+}
+.basic_msg ul li.lis_3,
+.basic_msg ul li.lis_4{
+	width:18%;
+	border-right:1px solid #4a8bc2;
+}
+.basic_msg ul li.lis_2 p,
+.basic_msg ul li.lis_3 p,
+.basic_msg ul li.lis_4 p{
+	height: 35px;
+	line-height: 35px;
+}
+.basic_msg ul li.lis_3 p i,
+.basic_msg ul li.lis_4 p i{
+	float: right;
+	margin-top:10px;
+}
+.basic_msg ul li.lis_3 p i.tel,
+.basic_msg ul li.lis_4 p i.tel{
+	width:16px;
+	height: 13px;
+	background:url(../imgs/manager/tel.png) no-repeat;
+	margin-right: 10px;
+}
+.basic_msg ul li.lis_3 p i.msg,
+.basic_msg ul li.lis_4 p i.msg{
+	width:14px;
+	height: 12px;
+	background:url(../imgs/manager/msg.png) no-repeat;
+}
+.basic_msg ul li.lis_3 p i.qq,
+.basic_msg ul li.lis_4 p i.qq{
+	width:56px;
+	height: 18px;
+	background:url(../imgs/manager/qq.png) no-repeat;
+}
+.basic_msg ul li.lis_5 h3{
+	font-size: 16px;
+	color:#cc0000;
+	margin-bottom: 13px;
+	text-align: center;
+}
+.basic_msg ul li.lis_5 p.showAllCon{
+	font-size:12px;
+	color:#cc0000;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.basic_msg ul li.lis_5 p.add_concat{
+	font-size:12px;
+	color:#74b749;
+	text-decoration: underline;
+	text-align: center;
+}
+.modify_msg ul li.lis_1 p.cor_name input{
+	width: 100%;
+	height: 27px;
+	border:1px dashed #ccc;
+}
+.modify_msg ul li.lis_1 p.order_amount{
+	height: 30px;
+	line-height: 30px;
+}
+.modify_msg ul li.lis_1 p.order_amount i.grade{
+	float: left;
+	width:26px;
+	height: 24px;
+	background:url(../imgs/manager/vip.png) no-repeat;
+}
+.modify_msg ul li.lis_1 p.order_amount b{
+	font-size: 12px;
+	color: #74b749;
+	text-decoration: underline;
+	margin-right: 30px;
+}
+.modify_msg ul li.lis_2 p input{
+	width: 71%;
+	height: 25px;
+	border: 1px dashed #ccc;
+}
+.modify_msg ul li.lis_4 p input{
+	width: 50%;
+	height: 25px;
+	border: 1px dashed #ccc;
+}
+.businessMsg,.order_details{
+	height: auto;
+	margin-top:16px;
+	padding: 0 16px;
+}
+.businessMsg>p{
+	height: 30px;
+	background: #4a8bc2;
+}
+.businessMsg>p span{
+	float: left;
+	width: 100px;
+	height: 26px;
+	background: #fff;
+	line-height: 26px;
+	text-align: center;
+	color: #4a8bc2;
+	font-size: 14px;
+	margin-top: 2px;
+	margin-left: 48px;
+}
+.businessMsg>p b{
+    font-size: 22px;
+    color: #fff;
+    margin-left: 10px;
+}
+.businessMsg>p label{
+	line-height: 30px;
+	color: #fff;
+	margin-left: 18px;
+}
+table{
+	width: 100%;
+}
+.businessMsg table th{
+	height: 30px;
+	border: 1px solid #4a8bc2;
+	color: #4a8bc2;
+}
+.businessMsg table td{
+	border: 1px solid #4a8bc2;
+	height: 30px;
+	text-align: center;
+}
+table td a{
+	color: #74b749;
+	text-decoration: underline;
+}
+.order_details>p{
+	height: 30px;
+	background: #4a8bc2;
+}
+.order_details>p span{
+	float: left;
+	width: 100px;
+	height: 26px;
+	background: #fff;
+	line-height: 26px;
+	text-align: center;
+	color: #4a8bc2;
+	font-size: 14px;
+	margin-top: 2px;
+	margin-left: 48px;
+}
+.order_details>p b{
+	float: left;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 20px;
+    color: #666;
+    background: #f2f2f2;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+.order_details table{
+	width: 100%;
+}
+.order_details table th{
+	height: 30px;
+	border: 1px solid #4a8bc2;
+}
