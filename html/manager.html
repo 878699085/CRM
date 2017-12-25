@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/reset.min.css" />
+		<link rel="stylesheet" href="../js/jedate/skin/jedate.css" />
+		<link rel="stylesheet" href="../css/page.css" />
+		<link rel="stylesheet" href="../css/manager.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="../js/jedate/jquery.jedate.min.js" ></script>
+		<script type="text/javascript" src="../js/page.js" ></script>
+		<script type="text/javascript" src="../js/manager.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="distri_wrap">
+			<div class="nav_bread">
+				<h1>客户管理</h1>
+				<h2>
+					<span><i>当前位置 </i> /<b>客户管理</b> 》   <b>客户管理</b></span>
+				</h2>
+			</div>
+			<div class="setUpBtn">
+				<ul class="type_choose clearfix">
+					<li class="type_left">
+						<label>所属人</label>
+						<input type="text" value="已选择六位所属人，点击查看" class="showLook" />
+					</li>
+					<li style="margin-right:0;">
+						<label for="">归属地</label>
+						<dl>
+							<dt>不限</dt>
+							<dd>
+								<p>商标</p>
+								<p>专利</p>
+								<p>版权</p>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<label for="">数据来源</label>
+						<dl>
+							<dt>不限</dt>
+							<dd>
+								<p>商标</p>
+								<p>专利</p>
+								<p>版权</p>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<label for="">业务类型</label>
+						<dl>
+							<dt>不限</dt>
+							<dd>
+								<p>商标</p>
+								<p>专利</p>
+								<p>版权</p>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="type_choose sea_choose clearfix">
+					<li class="advanced">显示高级查询</li>
+					<li>
+						<input type="text"  class="searchContent" placeholder="支持客户名称、所属人、联系人、手机、电话、QQ、商标专利ID"/>
+						<label class="searchBtn">查询</label>
+					</li>
+					<li class="seas">
+						<label for="">是否公海客户</label>
+						<dl>
+							<dt>不限</dt>
+							<dd>
+								<p>商标</p>
+								<p>专利</p>
+								<p>版权</p>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class='per_choose clearfix'>
+					<li class="per_left">
+							<span>新增</span>
+							<span class="custom_dis">自定义显示字段</span>
+							<span>批量分配</span>
+							<span>群发邮件</span>
+							<span>群发短信</span>
+					</li>
+					<li style="margin-right:0;">
+						<dl>
+							<dt>不限</dt>
+							<dd>
+								<p>商标</p>
+								<p>专利</p>
+								<p>版权</p>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="expert_search hide">
+				<li>
+					<label for="">客户名称</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+							<p>包含</p>
+							<p>不包含</p>
+						</dd>
+					</dl>
+					<input type="text" />
+				</li>
+				<li>
+					<label for="">客户来源</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+							<p>包含</p>
+							<p>不包含</p>
+						</dd>
+					</dl>
+					<input type="text"/>
+				</li>
+				<li class="cust_contact">
+					<label for="">客户联系人</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+							<p>包含</p>
+							<p>不包含</p>
+						</dd>
+					</dl>
+					<input type="text"/>
+				</li>
+				<li>
+					<label for="">所属人</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+						</dd>
+					</dl>
+					<input type="text" />
+				</li>
+				<li>
+					<label for="">客户等级</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+						</dd>
+					</dl>
+					<input type="text" />
+				</li>
+				<li class="isScal">
+					<label for="">是否图形</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+						</dd>
+					</dl>
+					<input type="text" />
+				</li>
+				<li class="creat_time">
+					<label for="">创建时间</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+							<p>包含</p>
+							<p>不包含</p>
+						</dd>
+					</dl>
+					<input type="text" id="startTime"/>
+				</li>
+				<li class="creat_time">
+					<label for="">最后跟进时间</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+							<p>包含</p>
+							<p>不包含</p>
+						</dd>
+					</dl>
+					<input type="text" id="endTime"/>
+				</li>
+				<li class="phone">
+					<label for="">手机</label>
+					<input type="text" />
+				</li>
+				<li class="tel">
+					<label for="">电话</label>
+					<input type="text" />
+				</li>
+				<li class="qq">
+					<label for="">QQ</label>
+					<input type="text" />
+				</li>
+				<li class="regNo">
+					<label for="">注册号</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+							<p>包含</p>
+							<p>不包含</p>
+						</dd>
+					</dl>
+					<input type="text" />
+				</li>
+				<li>
+					<label for="">注册名称</label>
+					<dl>
+						<dt>等于</dt>
+						<dd>
+							<p>不等于</p>
+							<p>包含</p>
+							<p>不包含</p>
+						</dd>
+					</dl>
+					<input type="text" />
+				</li>
+				<li class="sub_btns">
+					<input type="button" value="查询"/>
+				</li>
+			</ul>
+				<div class="all_choose clearfix">
+					<label for="">
+						<b></b>
+						<span>白银</span>
+						<em>【100】</em>
+					</label>
+					<ul>
+						<li>
+							<b></b>
+							<span>A类</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>B类</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>C类</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>D类</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>A-类</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>B+类</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>成交老客户</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>钻石</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>黄金</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>白银</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>待回访</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>领取客户</span>
+							<em>【100】</em>
+						</li>
+						<li>
+							<b></b>
+							<span>今天领取的客户</span>
+							<em>【100】</em>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="tabel_box">
+				<table border="" cellspacing="" cellpadding="">
+					<thead>
+						<th><span></span></th>
+						<th>所属人</th>
+						<th>客户名称</th>
+						<th>联系人</th>
+						<th>手机号码</th>
+						<th>电话号码</th>
+						<th>QQ</th>
+						<th>客户来源</th>
+						<th>客户等级</th>
+						<th>公海客户</th>
+						<th>客户分配</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td><span></span></td>
+							<td>张三</td>
+							<td><a>天天向上（北京）有限公司</a></td>
+							<td>王五</td>
+							<td>1321313131</td>
+							<td>010-5689634</td>
+							<td>593740031</td>
+							<td>百度商桥</td>
+							<td>A类</td>
+							<td>客服公海</td>
+							<td><a>更改所属人</a></td>
+						</tr>
+						<tr>
+							<td><span></span></td>
+							<td>张三</td>
+							<td><a>天天向上（北京）有限公司</a></td>
+							<td>王五</td>
+							<td>1321313131</td>
+							<td>010-5689634</td>
+							<td>593740031</td>
+							<td>百度商桥</td>
+							<td>A类</td>
+							<td>客服公海</td>
+							<td><a>更改所属人</a></td>
+						</tr>
+						<tr>
+							<td><span></span></td>
+							<td>张三</td>
+							<td><a>天天向上（北京）有限公司</a></td>
+							<td>王五</td>
+							<td>1321313131</td>
+							<td>010-5689634</td>
+							<td>593740031</td>
+							<td>百度商桥</td>
+							<td>A类</td>
+							<td>客服公海</td>
+							<td><a>更改所属人</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="mang_page">
+				<div class="pageNumber"></div>
+			</div>
+		</div>
+	</body>
+</html>

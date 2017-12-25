@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>CRM</name>
+	<name>CRM1</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -25,11 +25,16 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1512801704447</id>
-=======
 			<id>1512788267903</id>
->>>>>>> e631f46857914babab5f8b724805deb44e12a0d1
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-node_modules</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1512955537546</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

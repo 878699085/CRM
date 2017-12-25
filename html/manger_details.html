@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.min.css" />
+		<link rel="stylesheet" href="../css/manger_details.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="../js/manger_details.js" ></script>
+	</head>
+	<body>
+		<div class="details_wrap">
+			<div class="nav_bread">
+				<h1>客户管理</h1>
+				<h2>
+					<span><i>当前位置 </i> /<b>客户管理</b> 》   <b>客户管理</b> 》 <b>天天向上北京有限公司</b></span>
+				</h2>
+			</div>
+			<div class="basic_msg">
+				<ul>
+					<li class="lis_1">
+						<p class="cor_name"><span>天天向上北京有限公司</span><i></i><b>A类客户</b></p>
+						<p class="order_amount"><span>未完成订单额：<i>2000.00</i></span><span>成交总额：<i>2000.00</i></span></p>
+						<p class="order_amount"><span>实付总额：<i>2000.00</i></span><span>未付总额：<i>2000.00</i></span></p>
+						<p class="personal">客户所属人：<em>于兴亮（离职）</em>，改为：<em>张三</em></p>
+					</li>
+					<li class="lis_2">
+						<p>联系人：&emsp;<b>张先生</b></p>
+						<p>客户来源：<b>网站查询</b></p>
+					</li>
+					<li class="lis_3">
+						<p>原手机号码：<b>15111111111</b><i class="msg"></i><i class="tel"></i></p>
+						<p>原QQ号码：&nbsp;<b>593740031</b><i class="qq"></i></p>
+						<p>原微信号码：<b>12345678</b></p>
+					</li>
+					<li class="lis_4">
+						<p>现手机号码：<b>15111111111</b><i class="msg"></i><i class="tel"></i></p>
+						<p>现QQ号码：&nbsp;<b>593740031</b><i class="qq"></i></p>
+						<p>现微信号码：<b>12345678</b></p>
+					</li>
+					<li class="lis_5">
+						<h3>修改基本信息</h3>
+						<p class="showAllCon">显示所有联系方式</p>
+						<p class="add_concat">添加联系方式</p>
+					</li>
+				</ul>
+			</div>
+			<div class="basic_msg modify_msg">
+				<ul>
+					<li class="lis_1">
+						<p class="cor_name"><input type="text" /></p>
+						<p class="order_amount"><i class="grade"></i><b>A类客户</b><span>已成交：<i>2</i>笔业务</span></p>
+						<p class="personal">客户所属人：<em>于兴亮（离职）</em>，改为：<em>张三</em></p>
+					</li>
+					<li class="lis_2">
+						<p>联系人：&emsp;<input type="text" /></p>
+						<p>客户来源：<input type="text" /></p>
+					</li>
+					<li class="lis_3">
+						<p>原手机号码：<b>15111111111</b><i class="msg"></i><i class="tel"></i></p>
+						<p>原QQ号码：&nbsp;<b>593740031</b><i class="qq"></i></p>
+						<p>原微信号码：<b>12345678</b></p>
+					</li>
+					<li class="lis_4">
+						<p>现手机号码：<input type="text" /><i class="msg"></i><i class="tel"></i></p>
+						<p>现QQ号码：&nbsp;<input type="text" /><i class="qq"></i></p>
+						<p>现微信号码：<input type="text" /></p>
+					</li>
+					<li class="lis_5">
+						<p class="add_concat">添加联系方式</p>
+					</li>
+				</ul>
+			</div>
+			<!--业务信息-->
+			<div class="businessMsg">
+				<p><span>业务信息</span><b>+</b></p>
+				<table>
+					<thead>
+						<th>业务类型</th>
+						<th>业务名称</th>
+						<th>信息来源</th>
+						<th>创建人</th>
+						<th>创建时间</th>
+						<th>对应产品</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>国内注册</td>
+							<td><a>天天向上（北京）有限公司</a></td>
+							<td>百度商桥</td>
+							<td>张三</td>
+							<td>2014年1月1日</td>
+							<td><a>2个点击展开</a></td>
+						</tr>
+						<tr>
+							<td>国内注册</td>
+							<td><a>天天向上（北京）有限公司</a></td>
+							<td>百度商桥</td>
+							<td>张三</td>
+							<td>2014年1月1日</td>
+							<td><a>2个点击展开</a></td>
+						</tr>
+						<tr>
+							<td>国内注册</td>
+							<td><a>天天向上（北京）有限公司</a></td>
+							<td>百度商桥</td>
+							<td>张三</td>
+							<td>2014年1月1日</td>
+							<td><a>2个点击展开</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!--回访信息-->
+			<div class="businessMsg">
+				<p><span>回访信息</span><label>默认显示最近5条</label><label>显示全部</label></p>
+				<table>
+					<thead>
+						<th>方式</th>
+						<th>销售阶段</th>
+						<th>回访理由</th>
+						<th>回访内容</th>
+						<th>回访时间</th>
+						<th>下次回访时间</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>电话回访</td>
+							<td>建立信任</td>
+							<td>确定客户行业</td>
+							<td>客户做一个外观专利</td>
+							<td>2014年1月1日</td>
+							<td>2014年1月2日</td>
+						</tr>
+						<tr>
+							<td>QQ回访</td>
+							<td>建立信任</td>
+							<td>确定客户行业</td>
+							<td>客户做一个外观专利</td>
+							<td>2014年1月1日</td>
+							<td>2014年1月2日</td>
+						</tr>
+						<tr>
+							<td>电话回访</td>
+							<td>建立信任</td>
+							<td>确定客户行业</td>
+							<td>客户做一个外观专利</td>
+							<td>2014年1月1日</td>
+							<td>2014年1月2日</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!--订单详情-->
+			<div class="order_details">
+				<p><span>订单详情</span><b>克隆</b><b>添加订单</b><b>生成合同</b></p>
+				<table>
+					<thead>
+						<th>订单名称</th>
+						<th>单价（元）</th>
+						<th>总价（元）</th>
+						<th>状态</th>
+						<th>操作</th>
+					</thead>
+					
+					<tbody>
+						
+						<!--情况1-->
+						<tr class="tr_title">
+							<td colspan="4">创建时间：2014年1月1日</td>
+							<td><a>订单详情</a></td>
+						</tr>
+						<tr >
+							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
+							<td>1000.00</td>
+							<td>1000.00</td>
+							<td>新建</td>
+							<td><a>付款</a><a>编辑</a><a>删除</a></td>
+						</tr>
+						
+						<!--情况2-->
+						<tr class="tr_title">
+							<td colspan="2">创建时间：2014年1月1日</td>
+							<td>合同编号：20140704333333333</td>
+							<td>一次性付款</td>
+							<td><a>订单详情</a></td>
+						</tr>
+						<tr >
+							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
+							<td>1000.00</td>
+							<td rowspan="2">2000.00</td>
+							<td>已审核</td>
+							<td class="td_sub"><a>提交报件</a><a>提交撰写</a><a>提交案件</a><a>提交设计</a></td>
+						</tr>
+						<tr >
+							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
+							<td>1000.00</td>
+							<td></td>
+							<td class="td_sub"><a>提交报件</a><a>提交撰写</a><a>提交案件</a><a>提交设计</a></td>
+						</tr>
+						
+						<!--情况3-->
+						<tr class="tr_title">
+							<td colspan="2">创建时间：2014年1月1日</td>
+							<td>合同编号：20140704333333333</td>
+							<td>分期付款</td>
+							<td><a>订单详情</a></td>
+						</tr>
+						<tr >
+							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
+							<td>1000.00</td>
+							<td rowspan="2">2000.00（已付：10000.00）</td>
+							<td>已审核</td>
+							<td class="td_sub"><a>提交报件</a><a>提交撰写</a><a>提交案件</a><a>提交设计</a></td>
+						</tr>
+						
+					</tbody>
+					<tfoot>
+						<td colspan="5">未完成订单额：2000.00      成交总额：33000.00  实付总额：13000.00 未付总额：20000.00</td>
+					</tfoot>
+				</table>
+			</div>
+			<!--邮寄记录-->
+			<div class="businessMsg">
+				<p><span>邮寄记录</span></p>
+				<table>
+					<thead>
+						<th><span></span></th>
+						<th>邮寄内容</th>
+						<th>收件人</th>
+						<th>联系地址</th>
+						<th>联系电话</th>
+						<th>到付</th>
+						<th>创建信息</th>
+						<th>邮寄信息</th>
+						<th>快递公司-运单号</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td><span></span></td>
+							<td>注册证</td>
+							<td>王三</td>
+							<td>北京市房山区长阳一村</td>
+							<td>152036894220</td>
+							<td>是</td>
+							<td>张三2014年1月1日</td>
+							<td>张三2014年1月1日</td>
+							<td>申通快递-15565656565</td>
+						</tr>
+						<tr>
+							<td><span></span></td>
+							<td>注册证</td>
+							<td>王三</td>
+							<td>北京市房山区长阳一村</td>
+							<td>152036894220</td>
+							<td>是</td>
+							<td>张三2014年1月1日</td>
+							<td>张三2014年1月1日</td>
+							<td>申通快递-15565656565</td>
+						</tr>
+						<tr>
+							<td><span></span></td>
+							<td>注册证</td>
+							<td>王三</td>
+							<td>北京市房山区长阳一村</td>
+							<td>152036894220</td>
+							<td>是</td>
+							<td>张三2014年1月1日</td>
+							<td>张三2014年1月1日</td>
+							<td>申通快递-15565656565</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!--操作记录-->
+			<div class="businessMsg">
+				<p><span>回访信息</span></p>
+				<table>
+					<thead>
+						<th>序号</th>
+						<th>操作类型</th>
+						<th>操作人</th>
+						<th>操作时间</th>
+						<th>备注</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>新建</td>
+							<td>张立军</td>
+							<td>2014年1月1日</td>
+							<td>客户被第1次从公共客户领取</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>新建</td>
+							<td>张立军</td>
+							<td>2014年1月1日</td>
+							<td>客户被第1次从公共客户领取</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>新建</td>
+							<td>张立军</td>
+							<td>2014年1月1日</td>
+							<td>客户被第1次从公共客户领取</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

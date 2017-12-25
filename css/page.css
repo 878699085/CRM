@@ -1,0 +1,84 @@
+.pageNumber {
+	color: #666;
+	font-size: 14px;
+	width:1100px;
+	text-align: right;
+    float: right;
+    margin-right: 70px;
+}
+.pageNumber b{
+	font-size: 12px;
+}
+.pageNumber a {
+	display: inline-block;
+	width:7px;
+	height: 12px;
+	margin-left:12px;
+}
+.pageNumber span{
+	display: inline-block;
+	width: 7px;
+	height: 12px;
+	margin-left:12px;
+}
+/*首页、上一页可点击*/
+.pageNumber a.firstPage{
+	background: url(../imgs/common/firstPage1.png) center no-repeat;
+	margin-left:12px;
+}
+.pageNumber a.prevPage{
+	background:url(../imgs/common/lastPage1.png) center no-repeat;
+	margin-left: 8px;
+}
+/*首页、上一页不可点击*/
+.pageNumber span.first{
+	background: url(../imgs/common/firstPage.png) center no-repeat;
+	margin-left:12px;
+}
+.pageNumber span.lastPage{
+	background: url(../imgs/common/lastPage.png) center no-repeat;
+	margin-left:8px;
+}
+/*尾页、下一页可点击*/
+.pageNumber a.nextPage{
+	background:url(../imgs/common/nextPage1.png) center no-repeat;
+}
+.pageNumber a.endPage{
+	background:url(../imgs/common/endPage1.png) center no-repeat;
+}
+/*尾页、下一页不可点击*/
+.pageNumber span.underPage{
+	background:url(../imgs/common/nextPage.png) center no-repeat;
+}
+.pageNumber span.end{
+	background:url(../imgs/common/endPage.png) center no-repeat;
+}
+.pageNumber input{
+	width:58px;
+	height:18px;
+	margin:0px 5px;
+	padding-left:5px;
+	border: 1px dashed #d4d2d2;
+}
+.pageNumber .queNumber{
+	width: 21px;
+	height: 21px;
+	margin-left: 10px;
+	background: url(../imgs/common/true.png) center no-repeat;
+	position: relative;
+    top: 6px;
+}
+.pageNumber div.page_go{
+	width: 320px;
+	height: auto;
+	margin-left: 10px;
+	color: #666;
+	font-size: 12px;
+	display: inline-block;
+}
+.pageNumber div.page_go select{
+	width:58px;
+	height:18px;
+	margin:0px 5px;
+	border: 1px dashed #d4d2d2;
+}

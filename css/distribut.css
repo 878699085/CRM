@@ -1,0 +1,254 @@
+.manger_wrap{
+	width: 89%;
+    min-width: 1200px;
+    color: #666;
+    float: left;
+}
+.nav_bread{
+	padding:0 15px;
+}
+.nav_bread h1{
+	font-size: 16px;
+	padding:15px 0 ;
+	color: #666;
+}
+.nav_bread h2{
+	font-size: 12px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+    text-indent: 15px;
+}
+.nav_bread h2 span{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	background: #f5f5f5;
+}
+.setUpBtn{
+	height:82px;
+	padding:15px 15px;
+}
+.setUpBtn .type_choose{
+	height:30px;
+	margin-bottom:20px;
+}
+.setUpBtn li{
+	float:right;
+	margin-right:15px;
+	cursor:pointer;
+}
+.setUpBtn li.type_left,.setUpBtn li.per_left{
+	float:left;
+}
+.type_choose li span{
+	display: inline-block;
+	width:100px;
+	margin-right: 10px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	background:#4a8bc2;
+	font-size: 12px;
+}
+.type_choose li label{
+	float:left;
+	width:75px;
+	text-align:center;
+	line-height:30px;
+	background:#4a8bc2;
+	color:#fff;
+}
+.type_choose li select{
+	width:158px;
+	height:30px;
+	float:left;
+	border:1px solid #4a8bc2;
+}
+.per_choose li.per_left p{
+	display: inline-block;
+    height: 14px;
+    background: #4a8bc2;
+    padding: 8px 15px;
+	color:#fff;
+}
+.per_choose li.per_left p b{
+	float: left;
+	width:14px;
+	height:14px;
+	background:url(../imgs/common/check.png) center no-repeat;
+	margin-right: 5px;
+}
+.per_choose li.per_left p span,.per_choose li.per_left p em{
+	float: left;
+}
+.per_choose li.custom_dis{
+	height: 30px;
+	line-height:30px;
+	width: 160px;
+	background:#4a8bc2 url(../imgs/common/resize.png) 9px 5px no-repeat;
+	color:#fff;
+	text-align: center;
+}
+.per_choose li select{
+	width: 158px;
+	height: 30px;
+	border: 1px solid #4a8bc2;
+}
+.tabel_box{
+	padding:0 15px;
+	height: 533px;
+}
+.tabel_box table{
+	width: 100%;
+	border:1px solid #4a8bc2;
+}
+.tabel_box table thead{
+	background:#4a8bc2;
+}
+.tabel_box table thead th{
+	font-weight: normal;
+	border-color:#4a8bc2;
+	color:#fff;
+}
+.tabel_box table tr{
+	height:30px;
+	text-align: center;
+}
+.tabel_box table td{
+	border-color:#4a8bc2;
+	color:#666;
+} 
+.tabel_box table td em{
+	float: left;
+	margin-left: 10px;
+}
+.tabel_box table td b{
+	float: left;
+	width: 18px;
+	height: 18px;
+	background: url(../imgs/common/disabled.png) center no-repeat;
+	margin-left: 10px;
+}
+.tabel_box table td b.normal{
+	background: url(../imgs/common/normal.png) center no-repeat;
+}
+.mang_page{
+	font-size: 12px;
+	color: #666;
+	height: 30px;
+    background:#F5F5F5;
+}
+.tabel_box table span{
+	display: block;
+	width: 14px;
+	height: 14px;
+	background:url(../imgs/common/check.png) center center no-repeat;
+	margin: auto;
+}
+.tabel_box table span.hover{
+	background:url(../imgs/common/checked.png) center center no-repeat;
+}
+.tabel_box table tr td span{
+	background:url(../imgs/common/check1.png) center center no-repeat;
+}
+.tabel_box table tr td span.hover{
+	background:url(../imgs/common/checked1.png) center center no-repeat;
+}
+
+/*导入弹窗*/
+.batch_import{
+	position: fixed;
+	width: 480px;
+	height: 180px;
+	left: 50%;
+	top: 50%;
+	margin-left: -240px;
+	margin-top: -90px;
+	z-index: 999;
+	background: #f5f5f5;
+	display: none;
+}
+.batch_import h4,.cus_field h4{
+	height: 30px;
+	background: #4a8bc2;
+	line-height: 30px;
+	color: #fff;
+	text-indent: 10px;
+}
+.batch_import h4 b,.cus_field h4 b{
+	float: right;
+	width: 14px;
+	height: 14px;
+	background: url(../imgs/common/close.png) center no-repeat;
+	margin-right: 10px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+/*自定义字段弹窗*/
+.cus_field{
+	width: 481px;
+	height: 520px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -240px;
+	margin-top: -260px;
+	z-index: 999;
+	background: #f5f5f5;
+	display: none;
+}
+.cus_field .selected_left,
+.cus_field .select_right{
+	width: 240px;
+	height: 520px;
+	float: left;
+}
+.cus_field .selected_left{
+	border-right: 1px solid #fff;
+}
+.cus_field div ul{
+	margin-left:20px;
+	margin-top:20px;
+}
+.cus_field div ul li{
+	height: 25px;
+	color:#666;
+}
+.cus_field div ul li span{
+	float: left;
+	width: 100px;
+}
+.cus_field div ul li a{
+	float: left;
+	cursor: pointer;
+}
+.cus_field div ul li a.sortDown{
+	margin-left: 20px;
+}
+.cus_field div ul li b{
+	width:14px;
+	height: 14px;
+	float: left;
+	margin-left: 22px;
+	background:url(../imgs/common/delete.png) center no-repeat;
+	cursor: pointer;
+}
+.cus_field div ul li em{
+	margin-left: 28px;
+	text-decoration: underline;
+	color: #4a8bc2;
+	cursor: pointer;
+}
+.layout{
+	z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    background: #666;
+    display: none;
+}
