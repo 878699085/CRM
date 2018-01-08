@@ -208,6 +208,13 @@ table{
 	height: 30px;
 	text-align: center;
 }
+.businessMsg table td span,.order_details table td span{
+	width:14px;
+	height:14px;
+	background:url(../imgs/common/check1.png) center no-repeat;
+	display:block;
+	margin: auto;
+}
 table td a{
 	color: #74b749;
 	text-decoration: underline;
@@ -269,4 +276,200 @@ table td a{
     display: inline-block;
     margin: 0;
     padding:5px 0;
+}
+/*添加客户*/
+.add_custmer{
+	width: 478px;
+	height: 510px;
+	border: 1px solid #4a8bc2;
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	margin:auto;
+	background:#fff;
+}
+.add_custmer>p.title{
+	height: 30px;
+	background:#4a8bc2;
+	color:#fff;
+	text-indent: 10px;
+	line-height: 30px;
+}
+.add_custmer>p.title span{
+	float: right;
+	margin-right:10px;
+	width:14px;
+	height:14px;
+	background:url(../imgs/common/close.png) no-repeat;
+	margin-top:8px;
+}
+.add_custmer h4{
+	height: 33px;
+	line-height: 33px;
+	text-indent: 18px;
+	color:#666;
+}
+.add_custmer .add_con{
+	padding:12px;
+}
+.add_custmer .add_con ul{
+	width:50%;
+	float: left;
+}
+.add_con ul li{
+	margin-bottom:7px;
+	color: #666666;
+}
+.add_con ul li label{
+	float:left;
+	width:74px;
+	height: 24px;
+	text-align: right;
+	margin-right: 5px;
+}
+.add_con ul li input{
+	width: 130px;
+	height: 24px;
+	border: 1px solid #4a8bc2;
+	float: left;
+	text-indent:10px;
+}
+.add_con ul li dl {
+	width: 130px;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	text-indent: 10px;
+}
+.add_con ul li dt {
+	width: 130px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #4a8bc2;
+	text-align: center;
+	font-size: 12px;
+	text-indent: 10px;
+	background: url(../imgs/common/select.png) 115px 10px no-repeat;
+}
+.add_con ul li dd {
+	width: 130px;
+	position: absolute;
+	top: 24px;
+	text-align: center;
+	line-height: 24px;
+	z-index: 5;
+	background: #fff;
+	display: none;
+	border:1px solid #4a8bc2;
+	border-top: none;
+	text-indent: 10px;
+}
+.add_con ul li dd p {
+	height: 24px;
+	text-indent: 10px;
+}
+.add_con ul li dd p:hover {
+	background: #4a8bc2;
+	color: #fff;
+}
+.add_con ul li textarea{
+	width: 130px;
+	height: 60px;
+	border: 1px solid #4a8bc2;
+	float: left;
+}
+.add_custmer .save{
+	width: 120px;
+	height: 30px;
+	background: #4a8bc2;
+	color:#fff;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	margin: auto;
+}
+/*业务类型*/
+.p3{
+	margin-top: 15px;
+    padding-left: 100px;
+}
+.cont-addr1,.cont-addr2,.cont-addr3,.cont-addr4{
+	width:102px;
+	display:inline-block;
+	position:relative;
+	margin-right:6px;
+	float:left; 
+	cursor:pointer;
+}
+.cont-addr3{
+	margin-left:80px;
+	margin-top:10px;
+}
+.cont-addr4{
+	margin-top:10px;
+}
+.cont-addr1 label,.cont-addr2 label,.cont-addr3 label,.cont-addr4 label{
+	font-size: 12px;
+    color: #f30;
+    padding-left: 14px;
+    background: url(../imgs/tips.png) no-repeat left;
+}
+.cont-addrSpan{
+	float: left;
+    line-height: 30px;
+    width: 80px;
+    text-align: center;
+    background: #4a8bc2;
+    color:#fff;
+}
+.cont-addr2,.cont-addr3,.cont-addr4{
+	 display:none;
+}
+.cont-addr1 div,
+.cont-addr2 div,
+.cont-addr3 div,
+.cont-addr4 div{
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    width:100px;
+    left: 0px;
+    border: 1px dashed #ccc;
+    display: none;
+    top: 29px;
+    max-height: 200px;
+    overflow: auto;
+}
+.p3 .cont-addr1  input,
+.p3 .cont-addr2  input,
+.p3 .cont-addr3  input,
+.p3 .cont-addr4  input{
+	text-indent: 10px;
+	width: 100px;
+	height:28px;
+	line-height: 28px;
+	left:0px;
+	cursor:pointer;
+	border:1px solid #4a8bc2;
+	background: url(../imgs/common/select.png) no-repeat 95%;
+}
+.cont-addr1  div p,
+.cont-addr2  div p,
+.cont-addr3  div p,
+.cont-addr4  div p{
+    line-height: 25px;
+    cursor: pointer;
+    text-indent: 10px;
+}
+.cont-addr1  div p:hover,
+.cont-addr1  div p.hover,
+.cont-addr2  div p:hover,
+.cont-addr2  div p.hover,
+.cont-addr3  div p:hover,
+.cont-addr3  div p.hover,
+.cont-addr4  div p:hover,
+.cont-addr4  div p.hover{
+    background: #ccc;
 }

@@ -156,7 +156,7 @@
 				<p><span>订单详情</span><b>克隆</b><b>添加订单</b><b>生成合同</b></p>
 				<table>
 					<thead>
-						<th>订单名称</th>
+						<th colspan="2">订单名称</th>
 						<th>单价（元）</th>
 						<th>总价（元）</th>
 						<th>状态</th>
@@ -167,10 +167,11 @@
 						
 						<!--情况1-->
 						<tr class="tr_title">
-							<td colspan="4">创建时间：2014年1月1日</td>
+							<td colspan="5">创建时间：2014年1月1日</td>
 							<td><a>订单详情</a></td>
 						</tr>
 						<tr >
+							<td><span></span></td>
 							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
 							<td>1000.00</td>
 							<td>1000.00</td>
@@ -180,12 +181,13 @@
 						
 						<!--情况2-->
 						<tr class="tr_title">
-							<td colspan="2">创建时间：2014年1月1日</td>
+							<td colspan="3">创建时间：2014年1月1日</td>
 							<td>合同编号：20140704333333333</td>
 							<td>一次性付款</td>
 							<td><a>订单详情</a></td>
 						</tr>
 						<tr >
+							<td><span></span></td>
 							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
 							<td>1000.00</td>
 							<td rowspan="2">2000.00</td>
@@ -193,6 +195,7 @@
 							<td class="td_sub"><a>提交报件</a><a>提交撰写</a><a>提交案件</a><a>提交设计</a></td>
 						</tr>
 						<tr >
+							<td><span></span></td>
 							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
 							<td>1000.00</td>
 							<td></td>
@@ -201,12 +204,13 @@
 						
 						<!--情况3-->
 						<tr class="tr_title">
-							<td colspan="2">创建时间：2014年1月1日</td>
+							<td colspan="3">创建时间：2014年1月1日</td>
 							<td>合同编号：20140704333333333</td>
 							<td>分期付款</td>
 							<td><a>订单详情</a></td>
 						</tr>
 						<tr >
+							<td><span></span></td>
 							<td>【专利发明】发明名称：锅炉管板热防护装置</td>
 							<td>1000.00</td>
 							<td rowspan="2">2000.00（已付：10000.00）</td>
@@ -216,7 +220,7 @@
 						
 					</tbody>
 					<tfoot>
-						<td colspan="5">未完成订单额：2000.00      成交总额：33000.00  实付总额：13000.00 未付总额：20000.00</td>
+						<td colspan="6">未完成订单额：2000.00      成交总额：33000.00  实付总额：13000.00 未付总额：20000.00</td>
 					</tfoot>
 				</table>
 			</div>
@@ -308,6 +312,116 @@
 					</tbody>
 				</table>
 			</div>
+		</div>
+		<div class="add_custmer">
+			<p class="title">添加客户<span></span></p>
+			<div class="p3 clearfix"> 
+            	<span class="cont-addrSpan">业务类型</span>
+				<div class="cont-addr1">
+              		<input type="text" class="dwellAddr" value="" flag="" postcode="" autocomplete="off" readonly="" placeholder="请选择">
+                	<div>
+
+                    </div>
+            	</div>
+				<div class="cont-addr2">
+		                <input type="text" value="" flag="" postcode="" autocomplete="off" readonly="" placeholder="请选择">
+		                <div>
+		
+		                </div>
+	            </div>
+	            <div class="cont-addr3">
+	                <input type="text" value="" flag="" postcode="" autocomplete="off" readonly="" placeholder="请选择">
+	                <div>
+	
+	                </div>
+	            </div>
+	            <div class="cont-addr4" style="margin-right:0px; ">
+	                <input type="text" value="" flag="" postcode="" autocomplete="off" readonly="" placeholder="请选择">
+	                <div>
+	
+	                </div>
+	            </div>
+            </div>
+			<h4>咨询信息</h4>
+			<div class="add_con clearfix">
+				<ul class="con_left">
+					<li class="clearfix">
+						<label for="">联系手机</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">联系电话</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">名称</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">来源</label>
+						<dl>
+							<dt></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li class="clearfix">
+						<label for="">id</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">类别</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">是否图形商标</label>
+						<dl>
+							<dt></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li class="clearfix">
+						<label for="">所属服务</label>
+						<textarea></textarea>
+					</li>
+				</ul>
+				<ul class="con_left">
+					<li class="clearfix">
+						<label for="">QQ</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">客户名称</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">信息类型</label>
+						<dl>
+							<dt></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li class="clearfix">
+						<label for="">所属人</label>
+						<dl>
+							<dt></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li class="clearfix">
+						<label for="">注册号</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">联系人</label>
+						<input type="text" />
+					</li>
+					<li class="clearfix">
+						<label for="">备注</label>
+						<textarea></textarea>
+					</li>
+				</ul>
+			</div>
+			<span class="save">保存</span>
 		</div>
 	</body>
 </html>
